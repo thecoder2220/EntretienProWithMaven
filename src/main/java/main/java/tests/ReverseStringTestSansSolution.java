@@ -3,8 +3,8 @@ package main.java.tests;
 public class ReverseStringTestSansSolution {
    public static void main(String[] args) {
       String str = "What's going on?";
-      System.out.println(str);
-     // System.out.println(reverseItBB(str));
+      // System.out.println(str);
+      System.out.println(reverseItBB(str));
 
       String mtVir = "0014886707";
       float floatMtVir = Float.parseFloat(mtVir) / 100f;
@@ -13,6 +13,8 @@ public class ReverseStringTestSansSolution {
 
    }
 
-
+   static String reverseItBB (String chaine) {
+           return "";
+   }
 
 }
